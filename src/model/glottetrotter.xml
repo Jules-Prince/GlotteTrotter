@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GLOTTE-TROTTER>
+    <OFFRES>
+        <OFFRE>
+            <ID>b71a8479-2527-4a54-8997-5cad7e247dac</ID>
+            <NAME>Malibu en croco</NAME>
+            <TYPE-SEJOUR>ef766749-ab9d-48e7-8694-a203a7093cc5</TYPE-SEJOUR> <!--Sejour familial-->
+            <TYPE-PUBLIC>98ec6fc6-6391-4d64-8d6b-2e0febcb56b5</TYPE-PUBLIC> <!--Famille-->
+            <LANGUE>dcc08a9e-25ee-4571-ae29-ca9f250270a9</LANGUE>           <!--anglais-->
+            <DESTINATION>Malibu</DESTINATION>
+            <ACTIVITES>
+                <ACTIVITE>
+                    <ID>8500f60c-2adb-4fa1-a7ac-be02d697ecb8</ID>           <!--Bronzette-->
+                </ACTIVITE>
+                <ACTIVITE>
+                    <ID>ecb59e8b-fccb-4d3b-9142-29a5a5a2e484</ID>           <!--Surf-->
+                </ACTIVITE>
+            </ACTIVITES>
+            <ENSEIGNANTS>
+                <ENSEIGNANT>
+                    <ID>cdb35a4b-1ab0-443a-ad21-9102dfdeb790</ID>           <!--Armand Durant-->
+                </ENSEIGNANT>
+                <ENSEIGNANT>
+                    <ID>49e9e1fb-f9e8-4506-b31c-c3cbd5e20a77</ID>           <!--Lilianne Lina-->
+                </ENSEIGNANT>
+            </ENSEIGNANTS>
+            <ACCOMPAGNATEURS>
+                <ACCOMPAGNATEUR>
+                    <ID>eb52d58-d749-4ce8-a1c0-a4432216d2bf5</ID>           <!--Orianne Cerise-->
+                </ACCOMPAGNATEUR>
+                <ACCOMPAGNATEUR>
+                    <ID>477d8ba4-01c4-46b5-afb1-f18816dbf0de</ID>           <!--Noëlle Dorothée-->
+                </ACCOMPAGNATEUR>
+            </ACCOMPAGNATEURS>
+            <COURS-DE-LANGUE>false</COURS-DE-LANGUE>
+            <TEST-DE-LANGUE>false</TEST-DE-LANGUE>
+            <DATE-DEPART>2023-05-24</DATE-DEPART>
+            <DATE-ARRIVEE>2023-06-10</DATE-ARRIVEE>
+        </OFFRE>
+        <OFFRE>
+            <ID>b4121e0c-d2e3-11ed-afa1-0242ac120002</ID>
+            <NAME>Dublin en amoureux</NAME>
+            <TYPE-SEJOUR>89cfb127-ef8d-4855-b7ff-e64e042e1d3f</TYPE-SEJOUR> <!--En amoureux-->
+            <TYPE-PUBLIC>da2eab97-3e53-4c50-90bf-ce03052232ad</TYPE-PUBLIC> <!--Adulte-->
+            <LANGUE>dcc08a9e-25ee-4571-ae29-ca9f250270a9</LANGUE>           <!--Anglais-->
+            <DESTINATION>Dublin</DESTINATION>
+            <ACTIVITES>
+                <ACTIVITE>
+                    <ID>e23fee68-306a-468b-903a-fb8608740748</ID>           <!--Vélo-->
+                </ACTIVITE>
+                <ACTIVITE>
+                    <ID>9cf758e3-3c2f-476a-8b1f-77e90b6a18f7</ID>           <!--Yoga-->
+                </ACTIVITE>
+            </ACTIVITES>
+            <ENSEIGNANTS>
+                <ENSEIGNANT>
+                    <ID>cdb35a4b-1ab0-443a-ad21-9102dfdeb790</ID>           <!--Armand Durant-->
+                </ENSEIGNANT>
+                <ENSEIGNANT>
+                    <ID>49e9e1fb-f9e8-4506-b31c-c3cbd5e20a77</ID>           <!--Lilianne Lina-->
+                </ENSEIGNANT>
+            </ENSEIGNANTS>
+            <ACCOMPAGNATEURS>
+                <ACCOMPAGNATEUR>
+                    <ID>eb52d58-d749-4ce8-a1c0-a4432216d2bf5</ID>           <!--Orianne Cerise-->
+                </ACCOMPAGNATEUR>
+                <ACCOMPAGNATEUR>
+                    <ID>477d8ba4-01c4-46b5-afb1-f18816dbf0de</ID>           <!--Noëlle Dorothée-->
+                </ACCOMPAGNATEUR>
+            </ACCOMPAGNATEURS>
+            <COURS-DE-LANGUE>false</COURS-DE-LANGUE>
+            <TEST-DE-LANGUE>false</TEST-DE-LANGUE>
+            <DATE-DEPART>2023-06-25</DATE-DEPART>
+            <DATE-ARRIVEE>2023-07-05</DATE-ARRIVEE>
+        </OFFRE>
+    </OFFRES>
+    <RESERVATIONS>
+        <RESERVATION>
+            <ID>85e07328-838f-4540-9b08-c82ebc422ff8</ID>
+            <OFFRES>b71a8479-2527-4a54-8997-5cad7e247dac</OFFRES>        <!--Malibu en croco-->
+            <CLIENT>
+                <ID>6c5d3ecc-0e75-4ae8-a0ea-a2a5412ec1bc</ID>            <!--Bertrand Bernard-->
+            </CLIENT>
+        </RESERVATION>
+        <RESERVATION>
+            <ID>85e07328-838f-4540-9b08-c82ebc422ff8</ID>
+            <OFFRES>b71a8479-2527-4a54-8997-5cad7e247dac</OFFRES>        <!--Malibu en croco-->
+            <CLIENT>
+                <ID>9e3f13ca-92d8-4c3d-b3b2-1ae64ebf8c7f</ID>            <!--John Smith-->
+            </CLIENT>
+        </RESERVATION>
+        <RESERVATION>
+            <ID>6ffc6c13-99f6-4c3b-8825-9fa335356432</ID>
+            <OFFRES>b71a8479-2527-4a54-8997-5cad7e247dac</OFFRES>        <!--Dublin en amoureux-->
+            <CLIENT>
+                <ID>b59c54d7-2b80-4a2d-bb87-6a3efec0b7a3</ID>            <!--David Chen-->
+            </CLIENT>
+        </RESERVATION>
+        <RESERVATION>
+            <ID>fca6db48-d7e4-48ca-a282-07df977b2e43</ID>
+            <OFFRES>b71a8479-2527-4a54-8997-5cad7e247dac</OFFRES>        <!--Dublin en amoureux-->
+            <CLIENT>
+                <ID>3bfec9ac-38a5-4e21-8a16-2c5f5e5c8f38</ID>            <!--Oliver Smith-->
+            </CLIENT>
+        </RESERVATION>
+    </RESERVATIONS>
+    <CLIENTS>
+        <CLIENT>
+            <ID>6c5d3ecc-0e75-4ae8-a0ea-a2a5412ec1bc</ID>
+            <NAME>Bertrand Bernard</NAME>
+        </CLIENT>
+        <CLIENT>
+            <ID>9e3f13ca-92d8-4c3d-b3b2-1ae64ebf8c7f</ID>
+            <NAME>John Smith</NAME>
+        </CLIENT>
+        <CLIENT>
+            <ID>c0d7faba-8e58-4d97-9af9-f0b2602aeb0d</ID>
+            <NAME>Jessica Kim</NAME>
+        </CLIENT>
+        <CLIENT>
+            <ID>3bfec9ac-38a5-4e21-8a16-2c5f5e5c8f38</ID>
+            <NAME>Oliver Smith</NAME>
+        </CLIENT>
+        <CLIENT>
+            <ID>2349faca-eb26-472c-a06a-d92f1b276a68</ID>
+            <NAME>Emma Lee</NAME>
+        </CLIENT>
+        <CLIENT>
+            <ID>b59c54d7-2b80-4a2d-bb87-6a3efec0b7a3</ID>
+            <NAME>David Chen</NAME>
+        </CLIENT>
+    </CLIENTS>
+    <TYPES-SEJOURS>
+        <TYPES-SEJOUR>
+            <ID>89cfb127-ef8d-4855-b7ff-e64e042e1d3f</ID>
+            <NAME>Séjour familial</NAME>
+        </TYPES-SEJOUR>
+        <TYPES-SEJOUR>
+            <ID>cd709899-f966-43de-b215-58aa8094fa62</ID>
+            <NAME>Colonies de vacances</NAME>
+        </TYPES-SEJOUR>
+        <TYPES-SEJOUR>
+            <ID>c9651567-f39a-48bb-89d3-d2a7b0587b36</ID>
+            <NAME>Groupe scolaires</NAME>
+        </TYPES-SEJOUR>
+        <TYPES-SEJOUR>
+            <ID>6c0d0865-4d0d-461a-a8a5-9580a023f119</ID>
+            <NAME>Immersion en famille</NAME>
+        </TYPES-SEJOUR>
+        <TYPES-SEJOUR>
+            <ID>ef766749-ab9d-48e7-8694-a203a7093cc5</ID>
+            <NAME>En amoureux</NAME>
+        </TYPES-SEJOUR>
+    </TYPES-SEJOURS>
+    <TYPES-PUBLICS>
+        <TYPE-PUBLIC>
+            <ID>98ec6fc6-6391-4d64-8d6b-2e0febcb56b5</ID>
+            <NAME>Familiale</NAME>
+        </TYPE-PUBLIC>
+        <TYPE-PUBLIC>
+            <ID>da2eab97-3e53-4c50-90bf-ce03052232ad</ID>
+            <NAME>Adultes</NAME>
+        </TYPE-PUBLIC>
+        <TYPE-PUBLIC>
+            <ID>9ce6757a-2341-4817-ba21-2f42b2f2b01c</ID>
+            <NAME>Enfants/Ados</NAME>
+        </TYPE-PUBLIC>
+    </TYPES-PUBLICS>
+    <LANGUES>
+        <LANGUE>
+            <ID>b5b435f5-a9d2-487c-b0f9-1785ef59bc86</ID>
+            <NAME>Francais</NAME>
+        </LANGUE>
+        <LANGUE>
+            <ID>dcc08a9e-25ee-4571-ae29-ca9f250270a9</ID>
+            <NAME>Anglais</NAME>
+        </LANGUE>
+        <LANGUE>
+            <ID>2b579e4f-7eca-4424-b4fa-a84b327f9428</ID>
+            <NAME>Espagne</NAME>
+        </LANGUE>
+        <LANGUE>
+            <ID>2d4c8b73-1351-4138-b93f-d73def660426</ID>
+            <NAME>Italien</NAME>
+        </LANGUE>
+        <LANGUE>
+            <ID>9516908e-2573-48a8-9c29-0f2d745d712a</ID>
+            <NAME>Allemand</NAME>
+        </LANGUE>
+        <LANGUE>
+            <ID>7e5153ae-2e40-4552-9a21-186ae3879bd7</ID>
+            <NAME>Portugais</NAME>
+        </LANGUE>
+    </LANGUES>
+    <ACTIVITES>
+        <ACTIVITE>
+            <ID>8500f60c-2adb-4fa1-a7ac-be02d697ecb8</ID>
+            <NAME>Bronzette</NAME>
+        </ACTIVITE>
+        <ACTIVITE>
+            <ID>e23fee68-306a-468b-903a-fb8608740748</ID>
+            <NAME>Vélo</NAME>
+        </ACTIVITE>
+        <ACTIVITE>
+            <ID>69b4baff-2967-49b0-a62c-a590e612c49b</ID>
+            <NAME>Bowling</NAME>
+        </ACTIVITE>
+        <ACTIVITE>
+            <ID>2f2aa749-124d-42af-b8c8-9187b92a3dd2</ID>
+            <NAME>Randonnée pédestre</NAME>
+        </ACTIVITE>
+        <ACTIVITE>
+            <ID>ecb59e8b-fccb-4d3b-9142-29a5a5a2e484</ID>
+            <NAME>Surf</NAME>
+        </ACTIVITE>
+        <ACTIVITE>
+            <ID>437a5e94-f4a4-4d5a-a1d4-8b618fa6919a</ID>
+            <NAME>Escalade</NAME>
+        </ACTIVITE>
+        <ACTIVITE>
+            <ID>9cf758e3-3c2f-476a-8b1f-77e90b6a18f7</ID>
+            <NAME>Yoga</NAME>
+        </ACTIVITE>
+        <ACTIVITE>
+            <ID>aa696e71-6f01-4e32-8811-fc7fa90b2d60</ID>
+            <NAME>Ski</NAME>
+        </ACTIVITE>
+        <ACTIVITE>
+            <ID>c861f6ed-18b9-461e-ba72-56d4dcf62b5c</ID>
+            <NAME>Cinéma</NAME>
+        </ACTIVITE>
+    </ACTIVITES>
+    <ENSEIGNANTS>
+        <ENSEIGNANT>
+            <ID>cdb35a4b-1ab0-443a-ad21-9102dfdeb790</ID>
+            <NAME>Armand Durant</NAME>
+        </ENSEIGNANT>
+        <ENSEIGNANT>
+            <ID>49e9e1fb-f9e8-4506-b31c-c3cbd5e20a77</ID>
+            <NAME>Lilianne Lina</NAME>
+        </ENSEIGNANT>
+        <ENSEIGNANT>
+            <ID>013b9746-c465-46b2-a1b5-50a58a6d5f10</ID>
+            <NAME>Maxime Gabriel</NAME>
+        </ENSEIGNANT>
+        <ENSEIGNANT>
+            <ID>5a3b5f35-1966-40db-a76e-cd7de0106a5f</ID>
+            <NAME>Isabelle Valé</NAME>
+        </ENSEIGNANT>
+        <ENSEIGNANT>
+            <ID>3a3d3f8c-59f1-4247-9ce1-019a8a341c20</ID>
+            <NAME>Marie-Pierre Dupont</NAME>
+        </ENSEIGNANT>
+        <ENSEIGNANT>
+            <ID>87b096d7-144e-46b1-9028-08b89f88b01c</ID>
+            <NAME>Lucien Moreau</NAME>
+        </ENSEIGNANT>
+    </ENSEIGNANTS>
+    <ACCOMPAGNATEURS>
+        <ACCOMPAGNATEUR>
+            <ID>eb52d58-d749-4ce8-a1c0-a4432216d2bf5</ID>
+            <NAME>Orianne Cerise</NAME>
+        </ACCOMPAGNATEUR>
+        <ACCOMPAGNATEUR>
+            <ID>477d8ba4-01c4-46b5-afb1-f18816dbf0de</ID>
+            <NAME>Noëlle Dorothée</NAME>
+        </ACCOMPAGNATEUR>
+        <ACCOMPAGNATEUR>
+            <ID>341e0964-23f4-4f1a-8b78-9fba55e2a2e8</ID>
+            <NAME>Alexandre Marcelin</NAME>
+        </ACCOMPAGNATEUR>
+        <ACCOMPAGNATEUR>
+            <ID>e5d11d5e-8775-435f-a3c2-9a294b04531b</ID>
+            <NAME>Marie-Claude Léonie</NAME>
+        </ACCOMPAGNATEUR>
+        <ACCOMPAGNATEUR>
+            <ID>0f070988-55f2-4c34-bc98-9e43712a2735</ID>
+            <NAME>Philippe Léandre</NAME>
+        </ACCOMPAGNATEUR>
+        <ACCOMPAGNATEUR>
+            <ID>c07c2b90-0d54-4d0c-8c20-7a9c1ddce201</ID>
+            <NAME>Stéphanie Clarisse</NAME>
+        </ACCOMPAGNATEUR>
+    </ACCOMPAGNATEURS>
+</GLOTTE-TROTTER>
