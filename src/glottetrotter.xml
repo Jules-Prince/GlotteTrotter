@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<GLOTTE-TROTTER>
+    <OFFRES>
+        <OFFRE>
+            <ID>b71a8479-2527-4a54-8997-5cad7e247dac</ID>
+            <NAME>Malibu en croco</NAME>
+            <TYPE-SEJOUR>89cfb127-ef8d-4855-b7ff-e64e042e1d3f</TYPE-SEJOUR> <!--SEJOUR LINGUISTIQUE-->
+            <TYPE-PUBLIC>98ec6fc6-6391-4d64-8d6b-2e0febcb56b5</TYPE-PUBLIC> <!--FAMILIALE-->
+            <LANGUE>dcc08a9e-25ee-4571-ae29-ca9f250270a9</LANGUE>           <!--ANGLAIS-->
+            <DESTINATION>Malibu</DESTINATION>
+            <ACTIVITES>
+                <ACTIVITE>
+                    <ID>8500f60c-2adb-4fa1-a7ac-be02d697ecb8</ID>           <!--BRONZETTE-->
+                </ACTIVITE>
+            </ACTIVITES>
+            <ENSEIGNANTS>
+                <ENSEIGNANT>
+                    <ID>cdb35a4b-1ab0-443a-ad21-9102dfdeb790</ID>           <!--Armand Durant-->
+                </ENSEIGNANT>
+                <ENSEIGNANT>
+                    <ID>49e9e1fb-f9e8-4506-b31c-c3cbd5e20a77</ID>           <!--Lilianne Lina-->
+                </ENSEIGNANT>
+            </ENSEIGNANTS>
+            <ACCOMPAGNATEURS>
+                <ACCOMPAGNATEUR>
+                    <ID>eb52d58-d749-4ce8-a1c0-a4432216d2bf5</ID>           <!--Orianne Cerise-->
+                </ACCOMPAGNATEUR>
+                <ACCOMPAGNATEUR>
+                    <ID>477d8ba4-01c4-46b5-afb1-f18816dbf0de</ID>           <!--Noëlle Dorothée-->
+                </ACCOMPAGNATEUR>
+            </ACCOMPAGNATEURS>
+            <COURS-DE-LANGUE>false</COURS-DE-LANGUE>
+            <TEST-DE-LANGUE>false</TEST-DE-LANGUE>
+            <DATE-DEPART>2023-05-24</DATE-DEPART>
+            <DATE-ARRIVEE>2023-06-10</DATE-ARRIVEE>
+        </OFFRE>
+    </OFFRES>
+    <RESERVATIONS>
+        <RESERVATION>
+            <ID>85e07328-838f-4540-9b08-c82ebc422ff8</ID>
+            <OFFRES>b71a8479-2527-4a54-8997-5cad7e247dac</OFFRES>        <!--Malibu en croco-->
+            <CLIENT>
+                <ID>6c5d3ecc-0e75-4ae8-a0ea-a2a5412ec1bc</ID>            <!--Bertrand Bernard-->
+            </CLIENT>
+        </RESERVATION>
+    </RESERVATIONS>
+    <CLIENTS>
+        <CLIENT>
+            <ID>6c5d3ecc-0e75-4ae8-a0ea-a2a5412ec1bc</ID>
+            <NAME>Bertrand Bernard</NAME>
+        </CLIENT>
+    </CLIENTS>
+    <TYPES-SEJOURS>
+        <TYPES-SEJOUR>
+            <ID>89cfb127-ef8d-4855-b7ff-e64e042e1d3f</ID>
+            <NAME>Séjour Linguistique</NAME>
+        </TYPES-SEJOUR>
+    </TYPES-SEJOURS>
+    <TYPES-PUBLICS>
+        <TYPE-PUBLIC>
+            <ID>98ec6fc6-6391-4d64-8d6b-2e0febcb56b5</ID>
+            <NAME>Familiale</NAME>
+        </TYPE-PUBLIC>
+    </TYPES-PUBLICS>
+    <LANGUES>
+        <LANGUE>
+            <ID>b5b435f5-a9d2-487c-b0f9-1785ef59bc86</ID>
+            <NAME>FRANCAIS</NAME>
+        </LANGUE>
+        <LANGUE>
+            <ID>dcc08a9e-25ee-4571-ae29-ca9f250270a9</ID>
+            <NAME>ANGLAIS</NAME>
+        </LANGUE>
+    </LANGUES>
+    <ACTIVITES>
+        <ACTIVITE>
+            <ID>8500f60c-2adb-4fa1-a7ac-be02d697ecb8</ID>
+            <NAME>BRONZETTE</NAME>
+        </ACTIVITE>
+    </ACTIVITES>
+    <ENSEIGNANTS>
+        <ENSEIGNANT>
+            <ID>cdb35a4b-1ab0-443a-ad21-9102dfdeb790</ID>
+            <NAME>Armand Durant</NAME>
+        </ENSEIGNANT>
+        <ENSEIGNANT>
+            <ID>49e9e1fb-f9e8-4506-b31c-c3cbd5e20a77</ID>
+            <NAME>Lilianne Lina</NAME>
+        </ENSEIGNANT>
+    </ENSEIGNANTS>
+    <ACCOMPAGNATEURS>
+        <ACCOMPAGNATEUR>
+            <ID>eb52d58-d749-4ce8-a1c0-a4432216d2bf5</ID>
+            <NAME>Orianne Cerise</NAME>
+        </ACCOMPAGNATEUR>
+        <ACCOMPAGNATEUR>
+            <ID>477d8ba4-01c4-46b5-afb1-f18816dbf0de</ID>
+            <NAME>Noëlle Dorothée</NAME>
+        </ACCOMPAGNATEUR>
+    </ACCOMPAGNATEURS>
+
+</GLOTTE-TROTTER>
