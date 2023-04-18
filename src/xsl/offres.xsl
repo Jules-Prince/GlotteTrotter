@@ -3,18 +3,34 @@
     <xsl:template match="/GLOTTE-TROTTER">
         <html>
             <head>
-                <link href="./style/offres.css" rel="stylesheet" type="text/css"/>
+                <link href="../style/offres.css" rel="stylesheet" type="text/css"/>
                 <title>Offres</title>
             </head>
             <body>
-                <h2>
+                <h1>
                     Voici la liste des <xsl:value-of select="count(OFFRES/OFFRE)" /> offres
-                </h2>
-                <xsl:for-each select="OFFRES/OFFRE">
-                    <div>
-                        <h3><xsl:value-of select="NAME"/></h3>
+                </h1>
+                <div class="body">
+                    <div class="offres">
+                        <xsl:for-each select="OFFRES/OFFRE">
+                            <div class="offre">
+                                <h2 class="titre">
+                                    <xsl:value-of select="NAME"/>
+                                </h2>
+                                <h4 class="ville">
+                                    <xsl:value-of select="DESTINATION"/>
+                                </h4>
+                                <h3 class="prix">
+                                    <xsl:value-of select="PRIX"/>
+                                </h3>
+                                <p class="dates">
+                                    <xsl:value-of select="DATE-DEPART"/> -
+                                    <xsl:value-of select="DATE-ARRIVEE"/>
+                                </p>
+                            </div>
+                        </xsl:for-each>
                     </div>
-                </xsl:for-each>
+                </div>
             </body>
         </html>
     </xsl:template>

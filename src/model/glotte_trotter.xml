@@ -35,14 +35,16 @@
             </ACCOMPAGNATEURS>
             <COURS-DE-LANGUE>false</COURS-DE-LANGUE>
             <TEST-DE-LANGUE>false</TEST-DE-LANGUE>
-            <DATE-DEPART>2023-05-24</DATE-DEPART>
-            <DATE-ARRIVEE>2023-06-10</DATE-ARRIVEE>
+            <DATE-DEPART>23-05-24</DATE-DEPART>
+            <DATE-ARRIVEE>23-06-10</DATE-ARRIVEE>
+            <PRIX>2300</PRIX>
         </OFFRE>
         <OFFRE>
             <ID>b4121e0c-d2e3-11ed-afa1-0242ac120002</ID>
             <NAME>Dublin en amoureux</NAME>
             <TYPE-SEJOUR>89cfb127-ef8d-4855-b7ff-e64e042e1d3f</TYPE-SEJOUR> <!--En amoureux-->
             <TYPE-PUBLIC>da2eab97-3e53-4c50-90bf-ce03052232ad</TYPE-PUBLIC> <!--Adulte-->
+
             <LANGUE>dcc08a9e-25ee-4571-ae29-ca9f250270a9</LANGUE>           <!--Anglais-->
             <DESTINATION>Dublin</DESTINATION>
             <ACTIVITES>
@@ -71,8 +73,9 @@
             </ACCOMPAGNATEURS>
             <COURS-DE-LANGUE>false</COURS-DE-LANGUE>
             <TEST-DE-LANGUE>false</TEST-DE-LANGUE>
-            <DATE-DEPART>2023-06-25</DATE-DEPART>
-            <DATE-ARRIVEE>2023-07-05</DATE-ARRIVEE>
+            <DATE-DEPART>25-06-23</DATE-DEPART>
+            <DATE-ARRIVEE>05-07-23</DATE-ARRIVEE>
+            <PRIX>820</PRIX>
         </OFFRE>
     </OFFRES>
     <RESERVATIONS>
