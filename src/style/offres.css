@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Roboto;
+    src: url("font/Roboto-Medium.ttf");
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,12 +12,20 @@ body {
     background-color: #d9d4f7;
 }
 
+.header {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: fantasy;
+    font-size: 3vh;
+}
+
 .body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 100%;
+    height: 95%;
     width: 100%;
 }
 
@@ -29,32 +42,40 @@ body {
     position: relative;
     width: 35vw;
     height: 20vh;
-    margin: 10px;
-    padding: 10px;
+    margin: 30px;
+    padding: 20px;
     outline: solid;
 }
 
 .titre {
+    font-size: 2vw;
+    font-family: Roboto, serif;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 10px;
 }
 
 .ville {
+    font-size: 40px;
+    font-family: Roboto, serif;
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 10px;
 }
 
 .prix {
+    font-size: 60px;
+    font-family: Roboto, serif;
     position: absolute;
-    top: 0;
-    right: 0;
+    bottom: 0;
+    right: 10px;
 }
 
 .dates {
+    font-size: 30px;
+    font-family: Roboto, serif;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: 40px;
+    right: 10px;
 }
 
