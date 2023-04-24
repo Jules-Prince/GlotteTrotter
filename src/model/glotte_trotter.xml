@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="../model/offres.xsl" type="text/xsl"?>
-<GLOTTE-TROTTER>
+<GLOTTE-TROTTER
+        xmlns="http://mynamespace.fr/myvocabulary#"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://mynamespace.fr/myvocabulary# ../xsd/glotte_trotter.xsd">
     <OFFRES>
         <OFFRE>
             <ID>b71a8479-2527-4a54-8997-5cad7e247dac</ID>

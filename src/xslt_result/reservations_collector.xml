@@ -1,1 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><RESERVATIONS><RESERVATION><OFFRE>Malibu en croco</OFFRE><CLIENTS><CLIENT>Bertrand Bernard</CLIENT><CLIENT>John Smith</CLIENT></CLIENTS></RESERVATION><RESERVATION><OFFRE>Dublin en amoureux</OFFRE><CLIENTS><CLIENT>David Chen</CLIENT><CLIENT>Oliver Smith</CLIENT></CLIENTS></RESERVATION></RESERVATIONS>
+<?xml version="1.0" encoding="UTF-8"?>
+<RESERVATIONS>
+    <RESERVATION>
+        <OFFRE>Malibu en croco</OFFRE>
+        <CLIENTS>
+            <CLIENT>Bertrand Bernard</CLIENT>
+            <CLIENT>John Smith</CLIENT>
+        </CLIENTS>
+    </RESERVATION>
+    <RESERVATION>
+        <OFFRE>Dublin en amoureux</OFFRE>
+        <CLIENTS>
+            <CLIENT>David Chen</CLIENT>
+            <CLIENT>Oliver Smith</CLIENT>
+        </CLIENTS>
+    </RESERVATION>
+</RESERVATIONS>

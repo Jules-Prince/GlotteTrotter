@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://mynamespace.fr/myvocabulary#"
+           elementFormDefault="qualified">
+    <xs:element name="GLOTTE-TROTTER">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="OFFRES">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="OFFRE" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="ID"/>
+                                        <xs:element type="xs:string" name="NAME"/>
+                                        <xs:element type="xs:string" name="TYPE-SEJOUR"/>
+                                        <xs:element type="xs:string" name="TYPE-PUBLIC">
+                                            <xs:annotation>
+                                                <xs:documentation>Sejour familialEn amoureux</xs:documentation>
+                                            </xs:annotation>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="LANGUE">
+                                            <xs:annotation>
+                                                <xs:documentation>FamilleAdulte</xs:documentation>
+                                            </xs:annotation>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="DESTINATION">
+                                            <xs:annotation>
+                                                <xs:documentation>anglaisAnglais</xs:documentation>
+                                            </xs:annotation>
+                                        </xs:element>
+                                        <xs:element name="ACTIVITES">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="ACTIVITE" maxOccurs="unbounded" minOccurs="0">
+                                                        <xs:annotation>
+                                                            <xs:documentation>BronzetteSurfVéloYoga</xs:documentation>
+                                                        </xs:annotation>
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="ID"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="ENSEIGNANTS">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="ENSEIGNANT" maxOccurs="unbounded" minOccurs="0">
+                                                        <xs:annotation>
+                                                            <xs:documentation>Armand DurantLilianne LinaArmand DurantLilianne Lina</xs:documentation>
+                                                        </xs:annotation>
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="ID"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="ACCOMPAGNATEURS">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="ACCOMPAGNATEUR" maxOccurs="unbounded" minOccurs="0">
+                                                        <xs:annotation>
+                                                            <xs:documentation>Orianne CeriseNoëlle DorothéeOrianne CeriseNoëlle Dorothée</xs:documentation>
+                                                        </xs:annotation>
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="ID"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="COURS-DE-LANGUE"/>
+                                        <xs:element type="xs:string" name="TEST-DE-LANGUE"/>
+                                        <xs:element type="xs:string" name="DATE-DEPART"/>
+                                        <xs:element type="xs:string" name="DATE-ARRIVEE"/>
+                                        <xs:element type="xs:short" name="PRIX"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="RESERVATIONS">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="RESERVATION" maxOccurs="unbounded" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>Bertrand BernardJohn SmithDavid ChenOliver Smith</xs:documentation>
+                                </xs:annotation>
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="ID"/>
+                                        <xs:element type="xs:string" name="OFFRE"/>
+                                        <xs:element type="xs:string" name="CLIENT">
+                                            <xs:annotation>
+                                                <xs:documentation>Malibu en crocoMalibu en crocoDublin en amoureuxDublin en amoureux</xs:documentation>
+                                            </xs:annotation>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="CLIENTS">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="CLIENT" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="ID"/>
+                                        <xs:element type="xs:string" name="NAME"/>
+                                        <xs:element type="xs:int" name="PHONE"/>
+                                        <xs:element type="xs:string" name="EMAIL"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="TYPES-SEJOURS">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="TYPE-SEJOUR" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="ID"/>
+                                        <xs:element type="xs:string" name="NAME"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="TYPES-PUBLICS">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="TYPE-PUBLIC" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="ID"/>
+                                        <xs:element type="xs:string" name="NAME"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="LANGUES">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="LANGUE" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="ID"/>
+                                        <xs:element type="xs:string" name="NAME"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ACTIVITES">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ACTIVITE" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="ID"/>
+                                        <xs:element type="xs:string" name="NAME"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ENSEIGNANTS">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ENSEIGNANT" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="ID"/>
+                                        <xs:element type="xs:string" name="NAME"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ACCOMPAGNATEURS">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ACCOMPAGNATEUR" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="ID"/>
+                                        <xs:element type="xs:string" name="NAME"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
