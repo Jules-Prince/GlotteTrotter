@@ -104,49 +104,61 @@
         <CLIENT>
             <ID>6c5d3ecc-0e75-4ae8-a0ea-a2a5412ec1bc</ID>
             <NAME>Bertrand Bernard</NAME>
+            <PHONE>0667981235</PHONE>
+            <EMAIL>bertrand_fripouille@free.fr</EMAIL>
         </CLIENT>
         <CLIENT>
             <ID>9e3f13ca-92d8-4c3d-b3b2-1ae64ebf8c7f</ID>
             <NAME>John Smith</NAME>
+            <PHONE>0661235844</PHONE>
+            <EMAIL>jonny.english06@hotmail.fr</EMAIL>
         </CLIENT>
         <CLIENT>
             <ID>c0d7faba-8e58-4d97-9af9-f0b2602aeb0d</ID>
             <NAME>Jessica Kim</NAME>
+            <PHONE>0645892631</PHONE>
+            <EMAIL>jessica.kim06@hotmail.fr</EMAIL>
         </CLIENT>
         <CLIENT>
             <ID>3bfec9ac-38a5-4e21-8a16-2c5f5e5c8f38</ID>
             <NAME>Oliver Smith</NAME>
+            <PHONE>0732589631</PHONE>
+            <EMAIL>oliver.smith87@hotmail.fr</EMAIL>
         </CLIENT>
         <CLIENT>
             <ID>2349faca-eb26-472c-a06a-d92f1b276a68</ID>
             <NAME>Emma Lee</NAME>
+            <PHONE>0755697412</PHONE>
+            <EMAIL>emma-lee@hotmail.fr</EMAIL>
         </CLIENT>
         <CLIENT>
             <ID>b59c54d7-2b80-4a2d-bb87-6a3efec0b7a3</ID>
             <NAME>David Chen</NAME>
+            <PHONE>0494685214</PHONE>
+            <EMAIL>david_chen@hotmail.fr</EMAIL>
         </CLIENT>
     </CLIENTS>
     <TYPES-SEJOURS>
-        <TYPES-SEJOUR>
+        <TYPE-SEJOUR>
             <ID>89cfb127-ef8d-4855-b7ff-e64e042e1d3f</ID>
             <NAME>Séjour familial</NAME>
-        </TYPES-SEJOUR>
-        <TYPES-SEJOUR>
+        </TYPE-SEJOUR>
+        <TYPE-SEJOUR>
             <ID>cd709899-f966-43de-b215-58aa8094fa62</ID>
             <NAME>Colonies de vacances</NAME>
-        </TYPES-SEJOUR>
-        <TYPES-SEJOUR>
+        </TYPE-SEJOUR>
+        <TYPE-SEJOUR>
             <ID>c9651567-f39a-48bb-89d3-d2a7b0587b36</ID>
             <NAME>Groupe scolaires</NAME>
-        </TYPES-SEJOUR>
-        <TYPES-SEJOUR>
+        </TYPE-SEJOUR>
+        <TYPE-SEJOUR>
             <ID>6c0d0865-4d0d-461a-a8a5-9580a023f119</ID>
             <NAME>Immersion en famille</NAME>
-        </TYPES-SEJOUR>
-        <TYPES-SEJOUR>
+        </TYPE-SEJOUR>
+        <TYPE-SEJOUR>
             <ID>ef766749-ab9d-48e7-8694-a203a7093cc5</ID>
             <NAME>En amoureux</NAME>
-        </TYPES-SEJOUR>
+        </TYPE-SEJOUR>
     </TYPES-SEJOURS>
     <TYPES-PUBLICS>
         <TYPE-PUBLIC>
