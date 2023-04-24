@@ -81,31 +81,23 @@
     <RESERVATIONS>
         <RESERVATION>
             <ID>85e07328-838f-4540-9b08-c82ebc422ff8</ID>
-            <OFFRES>b71a8479-2527-4a54-8997-5cad7e247dac</OFFRES>        <!--Malibu en croco-->
-            <CLIENT>
-                <ID>6c5d3ecc-0e75-4ae8-a0ea-a2a5412ec1bc</ID>            <!--Bertrand Bernard-->
-            </CLIENT>
+            <OFFRE>b71a8479-2527-4a54-8997-5cad7e247dac</OFFRE>        <!--Malibu en croco-->
+            <CLIENT>6c5d3ecc-0e75-4ae8-a0ea-a2a5412ec1bc</CLIENT>            <!--Bertrand Bernard-->
         </RESERVATION>
         <RESERVATION>
             <ID>85e07328-838f-4540-9b08-c82ebc422ff8</ID>
-            <OFFRES>b71a8479-2527-4a54-8997-5cad7e247dac</OFFRES>        <!--Malibu en croco-->
-            <CLIENT>
-                <ID>9e3f13ca-92d8-4c3d-b3b2-1ae64ebf8c7f</ID>            <!--John Smith-->
-            </CLIENT>
+            <OFFRE>b71a8479-2527-4a54-8997-5cad7e247dac</OFFRE>        <!--Malibu en croco-->
+            <CLIENT>9e3f13ca-92d8-4c3d-b3b2-1ae64ebf8c7f</CLIENT>            <!--John Smith-->
         </RESERVATION>
         <RESERVATION>
             <ID>6ffc6c13-99f6-4c3b-8825-9fa335356432</ID>
-            <OFFRES>b71a8479-2527-4a54-8997-5cad7e247dac</OFFRES>        <!--Dublin en amoureux-->
-            <CLIENT>
-                <ID>b59c54d7-2b80-4a2d-bb87-6a3efec0b7a3</ID>            <!--David Chen-->
-            </CLIENT>
+            <OFFRE>b4121e0c-d2e3-11ed-afa1-0242ac120002</OFFRE>        <!--Dublin en amoureux-->
+            <CLIENT>b59c54d7-2b80-4a2d-bb87-6a3efec0b7a3</CLIENT>            <!--David Chen-->
         </RESERVATION>
         <RESERVATION>
             <ID>fca6db48-d7e4-48ca-a282-07df977b2e43</ID>
-            <OFFRES>b71a8479-2527-4a54-8997-5cad7e247dac</OFFRES>        <!--Dublin en amoureux-->
-            <CLIENT>
-                <ID>3bfec9ac-38a5-4e21-8a16-2c5f5e5c8f38</ID>            <!--Oliver Smith-->
-            </CLIENT>
+            <OFFRE>b4121e0c-d2e3-11ed-afa1-0242ac120002</OFFRE>        <!--Dublin en amoureux-->
+            <CLIENT>3bfec9ac-38a5-4e21-8a16-2c5f5e5c8f38</CLIENT>           <!--Oliver Smith-->
         </RESERVATION>
     </RESERVATIONS>
     <CLIENTS>
